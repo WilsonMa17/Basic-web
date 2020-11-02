@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>About</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+<div id = "nav_bar">	
+	<ul>
+		<center>
+		<li id = "title">Tokyo</li>		
+		<li><a class = "navLink" href = "index.html">Home</a></li>
+		<li><a class = "navLink" href = "shinjuku.html">Central Tokyo</a></li>	
+		<li><a class = "navLink" href = "beyond.html">Beyond Tokyo</a></li>	
+		<li><a class = "navLink" href = "about.html">About</a></li>		
+		</center>	
+	</ul>
+</div>
+<br>
+<form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+	<legend><b>Suggestions and Inquries</b></legend>
+	<br>
+	<label>Name:</label><input type="text" name="name" id = "name"><br><br>
+        <textarea id = "suggestions" name="suggest" value="suggest" rows="5" cols="50">Suggestions here:</textarea>
+	<input type="submit" value="Submit" id="postsubmit1">
+</form>
+<br>
+<form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+	<legend><b>What did you think?</b></legend><br>
+			<label>First thoughts when you hear of Japan?</label><br>
+			<input type="radio" id="samurais" name="thoughts" value = "samurais">
+			<label for="samurais">Samurais</label><br>
+			<input type="radio" id="Olympic" name="thoughts" value = "Olympic">
+			<label for="Olympic">Olympics</label><br>
+			<input type="radio" id="Sushi" name="thoughts" value = "Sushi">
+			<label for="Sushi">Sushi!</label><br>
+			<input type="radio" id="Toyota" name="thoughts" value = "Toyota">
+			<label for="Toyota">Toyota</label><br>
+			<label>Favorite Japanese Food?</label><br>
+			<input type="radio" id="Ramen" name="food" value = "Ramen">
+			<label for="Ramen">Ramen</label><br>
+			<input type="radio" id="Sushi" name="food" value = "Sushi">
+			<label for="Sushi">Sushi</label><br>
+			<input type="radio" id="Tonkatsu" name="food" value = "Tonkatsu">
+			<label for="Tonkatsu">Tonkatsu</label><br>
+			<input type="radio" id="Soba" name="food" value = "Soba">
+			<label for="Soba">Soba</label><br>
+			<input type="submit" id="postsubmit">
+</form>
+
+<p><center> For more information:</center></p>
+
+<div id="bottom_info">
+<br>
+	<ul><center>
+		<li><a  href = "https://www.gotokyo.org/en/index.html"><img src = "https://www.gotokyo.org/en/about-tcvb/images/img_en02.png" id="link1"></a></li>
+		<li><a  href = "https://www.tripadvisor.com/Tourism-g298184-Tokyo_Tokyo_Prefecture_Kanto-Vacations.html"><img src = "https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg" id="link1"></a></li>
+		<li><a  href = "https://www.yelp.com/%E6%9D%B1%E4%BA%AC"><img src = "https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_large_assets/19f90cad684f/assets/img/brand_guidelines/Yelp_RGB_fullcolor_outline.png" id="link1"></a></li>
+		<li><a  href = "https://www.pasmo.co.jp/visitors/en/"><img src = "https://www.pasmo.co.jp/global/assets/img/logo-pasmo.svg" id="link1"></a></li>
+		<li><a  href=  "https://www.gotokyo.org/book/wp-content/uploads/2020/03/2003_TTG_EN-1.pdf" download = "brochure"><button id= "dl">Brochure PDF Download</button></a></li>
+		</center>
+	</ul>
+</div>
+<div style = background-color:pink ><p>All icon logos are registered trademark property (GoTokyo, TripAdvisor, Yelp, Pasmo)</p></div>
+<script src="scripts.js"></script>
+</body>
+
+</html>
